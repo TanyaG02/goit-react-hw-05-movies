@@ -5,6 +5,11 @@ export const ActorImg = styled.img`
   width: 200px;
 `;
 
+export const Img = styled.img`
+  height: 300px;
+  width: 200px;
+`;
+
 export const ActorContainer = styled.ul`
   list-style: none;
   align-items: center;

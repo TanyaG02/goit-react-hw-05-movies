@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { MovieCredits } from 'components/Api/MoviesDB';
-import { ActorImg, ActorContainer } from './Cast.styled';
+import { ActorImg, Img, ActorContainer } from './Cast.styled';
 
 export const Cast = () => {
   const [actors, setActors] = useState([]);
@@ -34,7 +34,7 @@ export const Cast = () => {
                   alt="No image"
                 />
               ) : (
-                <img
+                <Img
                   src="https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg"
                   alt="No image"
                   height={300}
